@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 36px;
+  animation: fadeSlideDown 0.6s ease both;
+}
+
+.logo {
+  font-family: "gf_Inria_Serif variant0", Tofu, serif;
+  font-weight: 800;
+  font-size: 1.7rem;
+  letter-spacing: -0.03em;
+  color: var(--text-primary);
+}
+
+.logoAccent {
+  color: var(--accent);
+}
+
+.logoSub {
+  font-family: "gf_Inria_Serif variant0", Tofu, serif;
+  font-weight: 300;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
